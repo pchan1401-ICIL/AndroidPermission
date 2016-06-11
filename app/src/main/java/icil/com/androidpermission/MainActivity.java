@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             resultText.setText("camera permission denied");
                         }
+                        break;
                     }
                 }
                 break;
@@ -97,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             resultText.setText("read/write storage permission denied");
                         }
+                        break;
                     }
                 }
                 break;
@@ -110,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             resultText.setText("recording audio permission denied");
                         }
+                        break;
                     }
                 }
                 break;
